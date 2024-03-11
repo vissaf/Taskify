@@ -1,11 +1,9 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Footer } from "./_components/footer";
 import { Navbar } from "./_components/navbar";
 
 const MarketingLayout = ({ children }: { children: React.ReactNode }) => {
     return (
     <>
-    <SpeedInsights />
     <div className="h-full bg-slate-100">
         <Navbar />
         {/* Main content */}
