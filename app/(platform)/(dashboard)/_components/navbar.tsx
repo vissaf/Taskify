@@ -30,7 +30,7 @@ export const Navbar = () => {
           hidePersonal
           afterCreateOrganizationUrl="/organization/:id"
           afterLeaveOrganizationUrl="/select-org"
-          afterSelectOrganizationUrl="/dashboard"
+          afterSelectOrganizationUrl="/organization/:id"
           appearance={{
             elements: {
               rootBox: {
